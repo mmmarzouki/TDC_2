@@ -10,6 +10,8 @@ import { PostsComponent } from './Component/home/posts/posts.component';
 import { MapComponent } from './Component/map/map.component';
 import { HomeComponent } from './Component/home/home.component';
 
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +24,9 @@ import { HomeComponent } from './Component/home/home.component';
   ],
   imports: [
     BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCbiqHO3ZMfbWzXbtFetqIG7DLybCyzEVg'
+    }),
     AppRoutingModule
   ],
   providers: [],
