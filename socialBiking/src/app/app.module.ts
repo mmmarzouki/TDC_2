@@ -11,6 +11,7 @@ import { MapComponent } from './Component/map/map.component';
 import { HomeComponent } from './Component/home/home.component';
 
 import { AgmCoreModule } from '@agm/core';
+import { AdsComponent } from './Component/ads/ads.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AgmCoreModule } from '@agm/core';
     EventsComponent,
     PostsComponent,
     MapComponent,
-    HomeComponent
+    HomeComponent,
+    AdsComponent
   ],
   imports: [
     BrowserModule,
