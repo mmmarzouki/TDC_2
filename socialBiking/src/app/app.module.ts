@@ -11,13 +11,8 @@ import { MapComponent } from './Component/map/map.component';
 import { HomeComponent } from './Component/home/home.component';
 import { CommentComponent } from './Component/home/posts/comment/comment.component';
 import { RatingComponent } from './component/home/posts/rating/rating.component';
-
-
-<<<<<<< HEAD
-=======
 import { AgmCoreModule } from '@agm/core';
 import { AdsComponent } from './Component/ads/ads.component';
->>>>>>> 3f0e77dcc17c64517b579c19ccf1b40ef37f31d4
 
 @NgModule({
   declarations: [
@@ -28,12 +23,9 @@ import { AdsComponent } from './Component/ads/ads.component';
     PostsComponent,
     MapComponent,
     HomeComponent,
-<<<<<<< HEAD
-    CommentComponent,
-    RatingComponent
-=======
-    AdsComponent
->>>>>>> 3f0e77dcc17c64517b579c19ccf1b40ef37f31d4
+    AdsComponent,
+    RatingComponent,
+    CommentComponent 
   ],
   imports: [
     BrowserModule,
