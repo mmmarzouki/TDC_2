@@ -1,2 +1,3 @@
 .vscode/*
 socialBiking/node_modules/*
+./socialBiking/src/app/app.component.html
