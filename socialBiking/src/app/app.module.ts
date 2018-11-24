@@ -9,8 +9,10 @@ import { EventsComponent } from './Component/events/events.component';
 import { PostsComponent } from './Component/home/posts/posts.component';
 import { MapComponent } from './Component/map/map.component';
 import { HomeComponent } from './Component/home/home.component';
+import { CommentComponent } from './Component/home/posts/comment/comment.component';
+import { RatingComponent } from './component/home/posts/rating/rating.component';
 
-import { AgmCoreModule } from '@agm/core';
+
 
 @NgModule({
   declarations: [
@@ -20,13 +22,13 @@ import { AgmCoreModule } from '@agm/core';
     EventsComponent,
     PostsComponent,
     MapComponent,
-    HomeComponent
+    HomeComponent,
+    CommentComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCbiqHO3ZMfbWzXbtFetqIG7DLybCyzEVg'
-    }),
+    
     AppRoutingModule
   ],
   providers: [],
