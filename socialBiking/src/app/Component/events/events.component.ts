@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-events',
@@ -7,8 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventsComponent implements OnInit {
   public clicked : boolean = false ;
-   
+  
+  @Input()
+  addedItem:boolean ;
+  
+  @Output() addedItemChange = new EventEmitter<boolean>();
+
   constructor() { }
+
+  onParticipate(){
+    this.addedItemChange.emit(true);
+  }
 
   ngOnInit() {
   }

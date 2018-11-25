@@ -8,11 +8,11 @@
       <!-- <app-map></app-map> -->
       <div>
         <div>
-          <app-events></app-events>
+          <app-events [(addedItem)]="addedItem"></app-events>
         </div>
       </div>
       <hr>
-      <app-all-events-modal></app-all-events-modal>
+      <app-all-events-modal [addedItem]="addedItem"></app-all-events-modal>
       <app-ads></app-ads>
     </div>
   </div>
