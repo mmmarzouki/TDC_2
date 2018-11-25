@@ -23,3 +23,10 @@
     height: 19px;
     width: 19px;
   }
+
+  img {
+    width: 100%;
+    height: 300px;
+    opacity: 0.9;
+    filter: alpha(opacity=40);
+}
