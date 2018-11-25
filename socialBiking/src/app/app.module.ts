@@ -13,6 +13,7 @@ import { CommentComponent } from './Component/home/posts/comment/comment.compone
 import { RatingComponent } from './component/home/posts/rating/rating.component';
 import { AgmCoreModule } from '@agm/core';
 import { AdsComponent } from './Component/ads/ads.component';
+import { AllEventsModalComponent } from './Component/events/all-events-modal/all-events-modal.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { AdsComponent } from './Component/ads/ads.component';
     HomeComponent,
     AdsComponent,
     RatingComponent,
-    CommentComponent 
+    CommentComponent,
+    AllEventsModalComponent 
   ],
   imports: [
     BrowserModule,
