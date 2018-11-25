@@ -1,69 +1,54 @@
-<!-- Material form login -->
-<div class="card">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-    <h5 class="card-header info-color white-text text-center py-4">
-      <strong>Sign in</strong>
-    </h5>
-  
-    <!--Card content-->
-    <div class="card-body px-lg-5 pt-0">
-  
-      <!-- Form -->
-      <form class="text-center" style="color: #757575;">
-  
-        <!-- Email -->
-        <div class="md-form">
-          <input type="email" id="materialLoginFormEmail" class="form-control">
-          <label for="materialLoginFormEmail">E-mail</label>
-        </div>
-  
-        <!-- Password -->
-        <div class="md-form">
-          <input type="password" id="materialLoginFormPassword" class="form-control">
-          <label for="materialLoginFormPassword">Password</label>
-        </div>
-  
-        <div class="d-flex justify-content-around">
-          <div>
-            <!-- Remember me -->
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="materialLoginFormRemember">
-              <label class="form-check-label" for="materialLoginFormRemember">Remember me</label>
-            </div>
-          </div>
-          <div>
-            <!-- Forgot password -->
-            <a href="">Forgot password?</a>
-          </div>
-        </div>
-  
-        <!-- Sign in button -->
-        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign in</button>
-  
-        <!-- Register -->
-        <p>Not a member?
-          <a href="">Register</a>
-        </p>
-  
-        <!-- Social login -->
-        <p>or sign in with:</p>
-        <a type="button" class="btn-floating btn-fb btn-sm">
-          <i class="fa fa-facebook"></i>
-        </a>
-        <a type="button" class="btn-floating btn-tw btn-sm">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a type="button" class="btn-floating btn-li btn-sm">
-          <i class="fa fa-linkedin"></i>
-        </a>
-        <a type="button" class="btn-floating btn-git btn-sm">
-          <i class="fa fa-github"></i>
-        </a>
-  
-      </form>
-      <!-- Form -->
-  
-    </div>
-  
-  </div>
-  <!-- Material form login -->
+    <div class="container" style="margin-top:40px" id="bike">
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-md-offset-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<strong> Sign in to continue</strong>
+					</div>
+					<div class="panel-body">
+						<form role="form" action="#" method="POST">
+							<fieldset>
+								<div class="row">
+									<div class="center-block">
+										<img class="profile-img"
+											src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-10  col-md-offset-1 ">
+										<div class="form-group">
+											<div class="input-group">
+												<span class="input-group-addon">
+													<i class="glyphicon glyphicon-user"></i>
+												</span> 
+												<input class="form-control" placeholder="Username" name="loginname" type="text" autofocus>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="input-group">
+												<span class="input-group-addon">
+													<i class="glyphicon glyphicon-lock"></i>
+												</span>
+												<input class="form-control" placeholder="Password" name="password" type="password" value="">
+											</div>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign in">
+										</div>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<div class="panel-footer ">
+						Don't have an account! <a href="#" onClick=""> Sign Up Here </a>
+					</div>
+                </div>
+			</div>
+		</div>
+	</div>
