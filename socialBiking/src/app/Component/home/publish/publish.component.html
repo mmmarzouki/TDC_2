@@ -2,21 +2,24 @@
 
 <div id="Contenu_Principal" style="background: url(https://www.visitbetwsycoed.co.uk/ShowImage.aspx?fileid=3&cache=FullSize&width=960&height=445&languageID=1)">
 <div id="inner" style="color: white; font-size: larger">
-  <div id="x" class="row">
+  <div id="x" >
 <p style="align-content: center"> Welcome to SocialBiking where you can borrow a bike or crete an event </p>
-
-<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">
+  </div>
+<div class="row" id="buttons" >
+  <div class="col">
+<button type="button" class="btn btn-secondary"  data-toggle="modal" data-target="#exampleModalCenter">
   Create event
 </button>
-
-
-<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter1">
+  </div>
+  <div class="col">
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter1">
   Borrow bike
 </button>
+  </div>
+</div>
+</div>
+</div>
 
-</div>
-</div>
-</div>
 
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -53,6 +56,12 @@
           <input class="form-control"
                  type="date">
         </div>
+
+        <label  class="col-3 col-form-label">Photo</label>
+        <div class="col-10">
+          <input class="form-control" type="file">
+        </div>
+
 
       </div>
       <div class="modal-footer">

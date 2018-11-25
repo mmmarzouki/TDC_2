@@ -25,5 +25,10 @@ button{
 
   padding-left: 60%;
   padding-top: 40%;
-  font-size: larger;
+
+}
+
+#buttons{
+  padding-left: 50%;
+  width: 600px;
 }
