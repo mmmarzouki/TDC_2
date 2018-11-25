@@ -46,7 +46,8 @@
                     2
                 </li>
             <li class="nav-item active">
-              <a class="nav-link" routerLink="/profile">      Siwar </a>
+              <a *ngIf="path" class="nav-link" routerLink="/profile">      Siwar </a>
+              <a *ngIf="!path" class="nav-link" routerLink="/">      Home </a>
             </li>
             <li class="nav-item active" >
               <a class="nav-link" routerLink="/connexion">Settings </a>

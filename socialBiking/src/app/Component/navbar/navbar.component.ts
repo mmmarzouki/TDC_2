@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -10,6 +10,9 @@ public loaded:boolean=false;
 public done:boolean=false;
 
 constructor(private change:ChangeDetectorRef) { }
+
+  @Input()
+  path:boolean;
 
   ngOnInit() {
 
