@@ -15,6 +15,8 @@ import { AgmCoreModule } from '@agm/core';
 import { AdsComponent } from './Component/ads/ads.component';
 import { AllEventsModalComponent } from './Component/events/all-events-modal/all-events-modal.component';
 import { EventDetailsComponent } from './Component/events/event-details/event-details.component';
+import { SigninComponent } from './Component/signin/signin.component';
+import { ProfileComponent } from './Component/profile/profile.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { EventDetailsComponent } from './Component/events/event-details/event-de
     RatingComponent,
     CommentComponent,
     AllEventsModalComponent,
-    EventDetailsComponent 
+    EventDetailsComponent,
+    SigninComponent,
+    ProfileComponent 
   ],
   imports: [
     BrowserModule,
