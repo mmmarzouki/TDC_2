@@ -9,7 +9,8 @@ import { EventsComponent } from './Component/events/events.component';
 import { PostsComponent } from './Component/home/posts/posts.component';
 import { MapComponent } from './Component/map/map.component';
 import { HomeComponent } from './Component/home/home.component';
-
+import { CommentComponent } from './Component/home/posts/comment/comment.component';
+import { RatingComponent } from './component/home/posts/rating/rating.component';
 import { AgmCoreModule } from '@agm/core';
 import { AdsComponent } from './Component/ads/ads.component';
 
@@ -22,13 +23,13 @@ import { AdsComponent } from './Component/ads/ads.component';
     PostsComponent,
     MapComponent,
     HomeComponent,
-    AdsComponent
+    AdsComponent,
+    RatingComponent,
+    CommentComponent 
   ],
   imports: [
     BrowserModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCbiqHO3ZMfbWzXbtFetqIG7DLybCyzEVg'
-    }),
+    
     AppRoutingModule
   ],
   providers: [],
