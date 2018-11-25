@@ -1,15 +1,16 @@
 <router-outlet></router-outlet>
 <div>
-  <div>
-    <app-navbar></app-navbar>
-  </div>
-  <div class="container">
-    <div >
+  <div class="row">
+    <div class="col-md-9">
       <app-home></app-home>
     </div>
-    <div>
+    <div class="col-md-3" style="" >
       <app-map></app-map>
-      <app-events></app-events>
+      <div>
+        <div>
+          <app-events></app-events>
+        </div>
+      </div>
       <app-ads></app-ads>
     </div>
   </div>
