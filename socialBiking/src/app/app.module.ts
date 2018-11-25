@@ -18,7 +18,7 @@ import { EventDetailsComponent } from './Component/events/event-details/event-de
 import { SigninComponent } from './Component/signin/signin.component';
 import { ProfileComponent } from './Component/profile/profile.component';
 import { Routes } from '@angular/router';
-import { MainComponent } from './main/main.component';
+import { MainComponent } from '../app/main/main.component';
 
 
 @NgModule({
