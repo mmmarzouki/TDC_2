@@ -1,35 +1,31 @@
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button>
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
+
+<div id="Contenu_Principal" style="background: url(https://www.visitbetwsycoed.co.uk/ShowImage.aspx?fileid=3&cache=FullSize&width=960&height=445&languageID=1)">
+<div id="inner" style="color: white; font-size: larger">
+  <div id="x" >
+<p style="align-content: center"> Welcome to SocialBiking where you can borrow a bike or crete an event </p>
+  </div>
+<div class="row" id="buttons" >
+  <div class="col">
+<button type="button" class="btn btn-secondary"  data-toggle="modal" data-target="#exampleModalCenter">
+  Create event
+</button>
+  </div>
+  <div class="col">
+<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter1">
+  Borrow bike
+</button>
   </div>
 </div>
+</div>
+</div>
 
-<!-- Modal -->
-<!--
+
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Create An event</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle">Create event</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -42,6 +38,11 @@
                  type="text" placeholder="Name">
         </div>
 
+        <label class="col-2 col-form-label" >Message</label>
+        <div class="col-10">
+          <textarea class="form-control"
+                    type="text" placeholder="message here"></textarea>
+        </div>
 
 
         <label  class="col-3 col-form-label">Date</label>
@@ -50,20 +51,62 @@
                  type="date">
         </div>
 
-
         <label  class="col-3 col-form-label">Place</label>
         <div class="col-10">
           <input class="form-control"
-                 type="text">
+                 type="date">
+        </div>
+
+        <label  class="col-3 col-form-label">Photo</label>
+        <div class="col-10">
+          <input class="form-control" type="file">
         </div>
 
 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Create event</button>
+        <button type="button" class="btn btn-success">Create event</button>
       </div>
     </div>
   </div>
 </div>
--->
+
+<div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle1">Borrow a bike</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <label class="col-2 col-form-label" >Place</label>
+        <div class="col-10">
+          <input class="form-control"
+                 type="text" placeholder="Place">
+        </div>
+
+
+        <label  class="col-3 col-form-label">Start Date</label>
+        <div class="col-10">
+          <input class="form-control"
+                 type="date">
+        </div>
+
+        <label  class="col-3 col-form-label">End Date</label>
+        <div class="col-10">
+          <input class="form-control"
+                 type="date">
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">publish</button>
+      </div>
+    </div>
+  </div>
+</div>

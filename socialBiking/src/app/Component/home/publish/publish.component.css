@@ -1,0 +1,34 @@
+label{
+  color: #2d8659;
+  font-weight: bold;
+}
+
+button{
+  font-size: larger;
+
+}
+
+#Contenu_Principal{
+  width: 800px;
+  height: 440px;
+
+}
+
+
+#inner {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+#x{
+
+  padding-left: 60%;
+  padding-top: 40%;
+
+}
+
+#buttons{
+  padding-left: 50%;
+  width: 600px;
+}
