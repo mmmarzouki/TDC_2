@@ -17,6 +17,8 @@ import { AllEventsModalComponent } from './Component/events/all-events-modal/all
 import { EventDetailsComponent } from './Component/events/event-details/event-details.component';
 import { SigninComponent } from './Component/signin/signin.component';
 import { ProfileComponent } from './Component/profile/profile.component';
+import { Routes } from '@angular/router';
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
@@ -34,7 +36,8 @@ import { ProfileComponent } from './Component/profile/profile.component';
     AllEventsModalComponent,
     EventDetailsComponent,
     SigninComponent,
-    ProfileComponent 
+    ProfileComponent,
+    MainComponent 
   ],
   imports: [
     BrowserModule,
