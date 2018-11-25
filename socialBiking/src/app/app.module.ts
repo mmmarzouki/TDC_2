@@ -14,6 +14,7 @@ import { RatingComponent } from './Component/home/posts/rating/rating.component'
 import { AgmCoreModule } from '@agm/core';
 import { AdsComponent } from './Component/ads/ads.component';
 import { AllEventsModalComponent } from './Component/events/all-events-modal/all-events-modal.component';
+import { EventDetailsComponent } from './Component/events/event-details/event-details.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { AllEventsModalComponent } from './Component/events/all-events-modal/all
     AdsComponent,
     RatingComponent,
     CommentComponent,
-    AllEventsModalComponent 
+    AllEventsModalComponent,
+    EventDetailsComponent 
   ],
   imports: [
     BrowserModule,
