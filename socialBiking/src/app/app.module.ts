@@ -14,6 +14,7 @@ import { RatingComponent } from './component/home/posts/rating/rating.component'
 import { AgmCoreModule } from '@agm/core';
 import { AdsComponent } from './Component/ads/ads.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +31,9 @@ import { AdsComponent } from './Component/ads/ads.component';
   imports: [
     BrowserModule,
     
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCbiqHO3ZMfbWzXbtFetqIG7DLybCyzEVg'
+    }),
     AppRoutingModule
   ],
   providers: [],
