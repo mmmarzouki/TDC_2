@@ -12,9 +12,9 @@ img {
   /* stop the glowing blue shadow */
   .add-on .form-control:focus {
    box-shadow:none;
-   -webkit-box-shadow:none; 
-   border-color:#cccccc; 
+   -webkit-box-shadow:none;
+   border-color:#cccccc;
   }
 .label{
-  color:#339933
+  color:#0099ff
 }
