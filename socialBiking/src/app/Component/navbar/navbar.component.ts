@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+public loaded:boolean=false;
+public done:boolean=false;
 
-  constructor() { }
+constructor(private change:ChangeDetectorRef) { }
 
   ngOnInit() {
-  }
 
+  }
+  eventClicked(){
+    this.loaded=true;
+    this.change.markForCheck();
+    if(this.done!=true){
+    document.getElementById("test").remove();
+  this.done=true;  
+  }
+  }
 }
