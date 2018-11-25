@@ -10,7 +10,7 @@ import { PostsComponent } from './Component/home/posts/posts.component';
 import { MapComponent } from './Component/map/map.component';
 import { HomeComponent } from './Component/home/home.component';
 import { CommentComponent } from './Component/home/posts/comment/comment.component';
-import { RatingComponent } from './component/home/posts/rating/rating.component';
+import { RatingComponent } from './Component/home/posts/rating/rating.component';
 import { AgmCoreModule } from '@agm/core';
 import { AdsComponent } from './Component/ads/ads.component';
 import { AllEventsModalComponent } from './Component/events/all-events-modal/all-events-modal.component';
